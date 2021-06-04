@@ -1,0 +1,103 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-with, initial-scale=1.0">
+<title>Place an Order</title> 
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="body-background">
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo"></div>
+                    <img src="images/Final Logo.png" width="125px"> 
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Product-One.html">Our Products</a></li>
+                        <li><a href="Orders.html">Place an Order</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    </div>    
+ 
+    <!--contact-->
+
+    <section class="contact">
+        <div class="contact-details">
+            <h6>Place An Order</h6>
+            <p> If you would like to place an order, please get in touch via the methods listed below and let us know the name of the product you would like, or you could request a custom design!:<br> </p>
+            <ul>
+                <li><a href="https://www.instagram.com/stylr_gifts/">Instagram - @stylr_gifts</a></li>
+                <li><a href="https://www.facebook.com/Stylr.Gifts.x/">Facebook - @StylR.Gifts.x</a></li>
+                <li><a href="https://www.tiktok.com/@stylr_gifts?lang=en">TikTok - stylr_gifts</a></li>
+                <li>Email Us - stylr.gifts@gmail.com</li>
+            </ul>
+        </div>
+        
+    
+    
+    
+    
+    </section>
+    
+    <!--Footer-->
+    
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Menu</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Product-One.html">Our Products</a></li>
+                        <li><a href="Orders.html">Place an Order</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Follow Us!</h3>
+                    <ul>
+                        <li><a href="https://www.instagram.com/stylr_gifts/">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/Stylr.Gifts.x/">Facebook</a></li>
+                        <li><a href="https://www.tiktok.com/@stylr_gifts?lang=en">TikTok</a></li>
+                        <li>Email Us: stylr.gifts@gmail.com</li>
+                    </ul>
+                </div> <div class="footer-col-3">
+                    <h3>Want to leave a review?  Get in touch!</h3>
+                    <p>Feedback is greatly appreciated!</p>
+                </div>
+                <div class="footer-col-4">
+                    <img src="images/Final Logo.png">
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Website Built by Jack Laundon. <br>Copyright 2021 - Stylr Gifts.</p>
+        </div>
+    </div>
+    <!--js for toggle menu-->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }  
+    </script>
+</div>
+</body>
+</html>
